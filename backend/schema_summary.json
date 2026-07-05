@@ -1,0 +1,550 @@
+{
+    "ball_by_ball": {
+        "row_count": 278205,
+        "columns": {
+            "season_id": {
+                "type": "int64",
+                "samples": [
+                    "2008",
+                    "2008",
+                    "2008"
+                ]
+            },
+            "match_id": {
+                "type": "int64",
+                "samples": [
+                    "335982",
+                    "335982",
+                    "335982"
+                ]
+            },
+            "batter": {
+                "type": "object",
+                "samples": [
+                    "SC Ganguly",
+                    "BB McCullum",
+                    "BB McCullum"
+                ]
+            },
+            "bowler": {
+                "type": "object",
+                "samples": [
+                    "P Kumar",
+                    "P Kumar",
+                    "P Kumar"
+                ]
+            },
+            "non_striker": {
+                "type": "object",
+                "samples": [
+                    "BB McCullum",
+                    "SC Ganguly",
+                    "SC Ganguly"
+                ]
+            },
+            "team_batting": {
+                "type": "object",
+                "samples": [
+                    "Kolkata Knight Riders",
+                    "Kolkata Knight Riders",
+                    "Kolkata Knight Riders"
+                ]
+            },
+            "team_bowling": {
+                "type": "object",
+                "samples": [
+                    "Royal Challengers Bangalore",
+                    "Royal Challengers Bangalore",
+                    "Royal Challengers Bangalore"
+                ]
+            },
+            "over_number": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            "ball_number": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "1",
+                    "2"
+                ]
+            },
+            "batter_runs": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            "extras": {
+                "type": "int64",
+                "samples": [
+                    "1",
+                    "0",
+                    "1"
+                ]
+            },
+            "total_runs": {
+                "type": "int64",
+                "samples": [
+                    "1",
+                    "0",
+                    "1"
+                ]
+            },
+            "batsman_type": {
+                "type": "object",
+                "samples": [
+                    "Left hand Bat",
+                    "Right hand Bat",
+                    "Right hand Bat"
+                ]
+            },
+            "bowler_type": {
+                "type": "object",
+                "samples": [
+                    "Right arm Medium",
+                    "Right arm Medium",
+                    "Right arm Medium"
+                ]
+            },
+            "player_out": {
+                "type": "object",
+                "samples": [
+                    "SC Ganguly",
+                    "RT Ponting",
+                    "DJ Hussey"
+                ]
+            },
+            "fielders_involved": {
+                "type": "object",
+                "samples": [
+                    "[\"JH Kallis\"]",
+                    "[\"P Kumar\"]",
+                    "[\"CL White\"]"
+                ]
+            },
+            "is_wicket": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            },
+            "is_wide_ball": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "True"
+                ]
+            },
+            "is_no_ball": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            },
+            "is_leg_bye": {
+                "type": "bool",
+                "samples": [
+                    "True",
+                    "False",
+                    "False"
+                ]
+            },
+            "is_bye": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            },
+            "is_penalty": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            },
+            "wide_ball_runs": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "no_ball_runs": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            "leg_bye_runs": {
+                "type": "int64",
+                "samples": [
+                    "1",
+                    "0",
+                    "0"
+                ]
+            },
+            "bye_runs": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            "penalty_runs": {
+                "type": "int64",
+                "samples": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            "wicket_kind": {
+                "type": "object",
+                "samples": [
+                    "caught",
+                    "caught",
+                    "caught"
+                ]
+            },
+            "is_super_over": {
+                "type": "bool",
+                "samples": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            },
+            "innings": {
+                "type": "int64",
+                "samples": [
+                    "1",
+                    "1",
+                    "1"
+                ]
+            }
+        }
+    },
+    "ipl_match": {
+        "row_count": 1169,
+        "columns": {
+            "match_id": {
+                "type": "int64",
+                "samples": [
+                    "335982",
+                    "1082591",
+                    "1082592"
+                ]
+            },
+            "season_id": {
+                "type": "int64",
+                "samples": [
+                    "2008",
+                    "2017",
+                    "2017"
+                ]
+            },
+            "balls_per_over": {
+                "type": "int64",
+                "samples": [
+                    "6",
+                    "6",
+                    "6"
+                ]
+            },
+            "city": {
+                "type": "object",
+                "samples": [
+                    "Bangalore",
+                    "Hyderabad",
+                    "Pune"
+                ]
+            },
+            "match_date": {
+                "type": "object",
+                "samples": [
+                    "18-04-2008",
+                    "05-04-2017",
+                    "06-04-2017"
+                ]
+            },
+            "event_name": {
+                "type": "object",
+                "samples": [
+                    "Indian Premier League",
+                    "Indian Premier League",
+                    "Indian Premier League"
+                ]
+            },
+            "match_number": {
+                "type": "float64",
+                "samples": [
+                    "1.0",
+                    "1.0",
+                    "2.0"
+                ]
+            },
+            "gender": {
+                "type": "object",
+                "samples": [
+                    "male",
+                    "male",
+                    "male"
+                ]
+            },
+            "match_type": {
+                "type": "object",
+                "samples": [
+                    "league match",
+                    "league match",
+                    "league match"
+                ]
+            },
+            "format": {
+                "type": "object",
+                "samples": [
+                    "T20",
+                    "T20",
+                    "T20"
+                ]
+            },
+            "overs": {
+                "type": "int64",
+                "samples": [
+                    "20",
+                    "20",
+                    "20"
+                ]
+            },
+            "season": {
+                "type": "object",
+                "samples": [
+                    "2008",
+                    "2017",
+                    "2017"
+                ]
+            },
+            "team_type": {
+                "type": "object",
+                "samples": [
+                    "club",
+                    "club",
+                    "club"
+                ]
+            },
+            "venue": {
+                "type": "object",
+                "samples": [
+                    "M Chinnaswamy Stadium",
+                    "Rajiv Gandhi International Stadium, Uppal",
+                    "Maharashtra Cricket Association Stadium"
+                ]
+            },
+            "toss_winner": {
+                "type": "object",
+                "samples": [
+                    "Royal Challengers Bangalore",
+                    "Royal Challengers Bangalore",
+                    "Rising Pune Supergiant"
+                ]
+            },
+            "team1": {
+                "type": "object",
+                "samples": [
+                    "Royal Challengers Bangalore",
+                    "Sunrisers Hyderabad",
+                    "Rising Pune Supergiant"
+                ]
+            },
+            "team2": {
+                "type": "object",
+                "samples": [
+                    "Kolkata Knight Riders",
+                    "Royal Challengers Bangalore",
+                    "Mumbai Indians"
+                ]
+            },
+            "toss_decision": {
+                "type": "object",
+                "samples": [
+                    "field",
+                    "field",
+                    "field"
+                ]
+            },
+            "match_winner": {
+                "type": "object",
+                "samples": [
+                    "Kolkata Knight Riders",
+                    "Sunrisers Hyderabad",
+                    "Rising Pune Supergiant"
+                ]
+            },
+            "win_by_runs": {
+                "type": "float64",
+                "samples": [
+                    "140.0",
+                    "35.0",
+                    "15.0"
+                ]
+            },
+            "win_by_wickets": {
+                "type": "float64",
+                "samples": [
+                    "7.0",
+                    "10.0",
+                    "6.0"
+                ]
+            },
+            "player_of_match": {
+                "type": "float64",
+                "samples": [
+                    "46.0",
+                    "15.0",
+                    "36.0"
+                ]
+            },
+            "result": {
+                "type": "object",
+                "samples": [
+                    "win",
+                    "win",
+                    "win"
+                ]
+            },
+            "stage": {
+                "type": "object",
+                "samples": [
+                    "Qualifier 1",
+                    "Eliminator",
+                    "Qualifier 2"
+                ]
+            }
+        }
+    },
+    "player_info": {
+        "row_count": 772,
+        "columns": {
+            "player_id": {
+                "type": "int64",
+                "samples": [
+                    "6730",
+                    "22",
+                    "590"
+                ]
+            },
+            "player_name": {
+                "type": "object",
+                "samples": [
+                    "Mohsin Khan",
+                    "Rashid Khan",
+                    "K Rabada"
+                ]
+            },
+            "bat_style": {
+                "type": "object",
+                "samples": [
+                    "Left hand Bat",
+                    "Right hand Bat",
+                    "Left hand Bat"
+                ]
+            },
+            "bowl_style": {
+                "type": "object",
+                "samples": [
+                    "Left arm Medium fast",
+                    "Legbreak Googly",
+                    "Right arm Fast"
+                ]
+            },
+            "field_pos": {
+                "type": "object",
+                "samples": [
+                    " ",
+                    " ",
+                    " "
+                ]
+            },
+            "player_full_name": {
+                "type": "object",
+                "samples": [
+                    "Mohsin Khan",
+                    "Rashid Khan Arman",
+                    "Kagiso Rabada"
+                ]
+            },
+            "player_name2": {
+                "type": "object",
+                "samples": [
+                    "Mohsin Khan",
+                    "Rashid Khan",
+                    "Kagiso Rabada"
+                ]
+            },
+            "player_image": {
+                "type": "object",
+                "samples": [
+                    "https://documents.iplt20.com/ipl/IPLHeadshot2025/218.png",
+                    "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/Kagiso%20Rabada.png",
+                    "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/playerimages/David%20Warner.png"
+                ]
+            }
+        }
+    },
+    "teams": {
+        "row_count": 16,
+        "columns": {
+            "team_id": {
+                "type": "int64",
+                "samples": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            "team_name": {
+                "type": "object",
+                "samples": [
+                    "Royal Challengers Bangalore",
+                    "Sunrisers Hyderabad",
+                    "Mumbai Indians"
+                ]
+            },
+            "team_name_short": {
+                "type": "object",
+                "samples": [
+                    "RCB",
+                    "SRH",
+                    "MI"
+                ]
+            },
+            "image_url": {
+                "type": "object",
+                "samples": [
+                    "https://documents.iplt20.com/ipl/RCB/Logos/Logooutline/RCBoutline.png",
+                    "https://documents.iplt20.com/ipl/SRH/Logos/Logooutline/SRHoutline.png",
+                    "https://documents.iplt20.com/ipl/MI/Logos/Logooutline/MIoutline.png"
+                ]
+            }
+        }
+    }
+}
